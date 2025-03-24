@@ -68,7 +68,7 @@ signInbtn.addEventListener("click", () => {
         ];
 
         localStorage.setItem("active-user", JSON.stringify(activeuser));
-        document.location = "chase.html";
+        document.location = "cha.html";
         return;
       }
       if (username !== data.username && password !== data.password) {
