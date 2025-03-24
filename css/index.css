@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  align-items: start;
+}
+.under-lay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(https://static.chasecdn.com/content/geo-images/images/background.mobile.day.1.jpeg);
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://static.chasecdn.com/content/geo-images/images/background.mobile.day.1.jpeg', sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://static.chasecdn.com/content/geo-images/images/background.mobile.day.1.jpeg', sizingMethod='scale');
+  z-index: -2;
+  background-repeat: no-repeat;
+}
+.u-overlay {
+  position: absolute;
+  background: linear-gradient(
+    to bottom,
+    #000000cb,
+    #2525253f
+  ); /* Gradient colors */
+  top: 0;
+  filter: blur(7px);
+  z-index: -1;
+  height: 90%;
+  width: 100%;
+  margin: 0;
+}
+.under-lay img {
+  width: 100%;
+}
+.logo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  filter: invert(0);
+  filter: brightness(100);
+  height: 52px;
+}
+.login-main-container {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: white;
+  width: 28.2%;
+  padding: 30px 30px 20px 30px;
+  border-radius: 7px;
+}
+.login-inputs {
+  color: gray;
+  text-align: start;
+}
+.login-inputs input {
+  width: 100%;
+  border: none;
+  padding: 7px 0px;
+  font-size: 17px;
+  border-bottom: 1.5px solid rgb(29, 29, 29);
+}
+.login-inputs input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #0073e6 !important; /* Change border color */
+}
+footer {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  margin-top: 40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.footer-links a {
+  color: hsl(198, 16%, 12%);
+  margin: 0 6px;
+  font-size: 12px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  padding: 5px 0px 20px 0px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(183, 183, 183);
+}
+
+.footer-social span {
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.footer-social a {
+  color: #555;
+  margin: 0 5px 0px 0px;
+  font-size: 25px;
+}
+
+.footer-social a:hover {
+  color: #005580;
+}
+
+.footer-bottom {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+}
+.footer-container {
+  width: 90%;
+  line-height: 2em;
+}
+.sign-in-button {
+  border: none;
+  background-color: #005fec;
+  width: 100%;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 5px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.last-foot {
+  margin-top: 15px;
+  display: block;
+  text-align: start;
+  line-height: 2em;
+}
+.last-foot p {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #005fec;
+}
+.last-foot a {
+  color: #005fec;
+  text-decoration: none;
+}
+.last-foot i {
+  font-size: 23px;
+  text-decoration: none;
+}
+.login-quick-buttons input {
+  margin-right: 10px;
+}
+.login-quick-buttons {
+  margin-bottom: 20px;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.login-quick-buttons div {
+  padding: 0px 0px;
+}
+#passwordNote,
+#usernameNote {
+  padding: 10px 0px 5px 0px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: rgb(180, 81, 81);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#passwordNote i,
+#usernameNote i {
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.inputError {
+  color: rgb(180, 81, 81);
+  #username,
+  #password {
+    font-size: 30px;
+    border-bottom: 2px solid rgb(180, 81, 81) !important;
+  }
+}
+.login-noti {
+  padding-bottom: 20px;
+  color: #bf2155;
+  font-size: 17px;
+  display: flex;
+  align-items: top;
+}
+.login-noti i {
+  font-size: 25px;
+  padding-right: 10px;
+}

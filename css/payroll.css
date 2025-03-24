@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  font-size: 15px;
+}
+body {
+  color: rgb(227, 227, 227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.payroll-container {
+  background-color: white;
+  border: 2px solid black;
+  background-color: #21578a;
+  border-radius: 5px;
+  box-shadow: 6px 6px black;
+  height: 400px;
+  width: 500px;
+  padding: 10px;
+}
+h1 {
+  padding-top: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+input {
+  width: 100%;
+  border: none;
+  font-size: 16.5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.input-containers {
+  padding: 10px 30px;
+  margin: 0;
+  width: 100%;
+  margin: 0;
+}
+.add-to-payroll {
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+a {
+  position: fixed;
+  font-size: 50px;
+  color: #21578a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: 20px;
+  left: 60px;
+  border: none;
+}
+@media screen and (max-width: 700px) {
+  a {
+    position: fixed;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+  }
+  .payroll-container {
+    width: 400px;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+}

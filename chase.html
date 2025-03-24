@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase Online</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reloader.css">
+    <link rel="stylesheet" href="./css/chase-mb.css">
+    <link rel="stylesheet" href="./css/chase.css">
+</head>
+
+<body>
+    <nav>
+        <div class="first-nav-section">
+            <div class="menu bx bx-menu">
+
+            </div>
+            <div class="menu bx bx-chat">
+
+            </div>
+            <div class="menu bx bx-flag">
+
+            </div>
+            <select disabled>
+                <option value="Explore">Explore products</option>
+            </select>
+
+        </div>
+        <div class="middle-nav-section">
+            <div class="logo">
+                <img src="./assets/logo2.png"> <span>for</span>
+                <p>H.N.W.I</p>
+            </div>
+
+        </div>
+        <div class="last-nav-section">
+            <div class="bx bx-search"></div>
+            <div class="user bx bxs-user"></div>
+            <div class="sign-out-button ">Sign out</div>
+        </div>
+
+
+    </nav>
+    <div class="mobile-navigation mobile-block">
+
+        <div class="mobile-section ">
+            <button class="bx bx-chat"></button>
+            <button class="sign-out-button mobile-sign-out bx bx-log-out"></button>
+        </div>
+
+        <div class="greetings">Welcome King JOE</div>
+        <div class="mobile-flex mobile-nav-top"> <button>See statements</button>
+            <button class="see-statement">Payment history</button>
+            <button>+</button>
+        </div>
+
+    </div>
+
+
+    <div class="home-navigation">
+        <button>Accounts</button>
+        <button disabled>Pay & transfer</button>
+        <button disabled>Collect & deposite</button>
+        <button disabled>Privacy & Security</button>
+        <button>Cash app deposit</button>
+    </div>
+    <div class="main-navigation"> .</div>
+    <div class="main-container">
+        <div class="loader-container hide-loader">
+            <div id="loader" class="loader"></div>
+        </div>
+        <div class="green-loader-container hide-loader">
+            <div id="green-loader" class="green-loader"></div>
+        </div>
+        <div class="mobile-headers mobile-flex">Accounts</div>
+        <div class="first-container">
+            <div class="total-balance">
+                <p>Total</p>
+                <p><span class="currency">$</span>85,490,000.00</p>
+            </div>
+
+
+            <div class="first-income">
+                <div class="income-header">Checking </div>
+                <div class="bg-white">
+                    <div class="income-name">5309****11****8395</div>
+                    <div class="income-details">
+                        <div>
+
+
+                            <p class="income-amount"><span>$</span> 45,090,000.00</p>
+                            <p class="income-class"> Available Balance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="first-income">
+                <div class="income-header">Investments</div>
+                <div class="bg-white">
+                    <div class="income-name">Zimb fab 2022 ( 5****90 )</div>
+                    <div class="income-details">
+                        <div>
+
+
+                            <p class="income-amount"><span>$</span> 10,220,000.00</p>
+                            <p class="income-class"> Current Balance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="first-income">
+                <div class="income-header">Foreign Exchange</div>
+                <div class="bg-white">
+                    <div class="income-name">Forex Judif (5309****11...)</div>
+                    <div class="income-details">
+                        <div>
+
+
+                            <p class="income-amount"><span>$</span> 29,842,500.00</p>
+                            <p class="income-class"> Current Balance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-container ">
+            <div class="top-second-container">
+
+                <div class="cash-bank">
+                    <div class="cash-bank-head">
+                        <div><img src="./assets/cashlogo.png"></div>
+                        <select>
+                            <option value="default" aria-readonly="true">See what you can do</option>
+                            <option value="default">Transfer to cash app accounts</option>
+                            <option value="default">Mobile deposits</option>
+                            <option>Direct Deposits</option>
+                        </select>
+                    </div>
+                    <div class="available-cash-accounts">
+                        <div class="cash-balances">
+                            <div>
+                                <p>Available Balance</p>
+                                <div class="balance-amount user-cash-balance" id="cash-balance">$60000</div>
+                            </div>
+                            <div class="hide-item-mb">
+                                <p>Present Balance</p>
+                                <div class="balance-amount" id="cash-balance">$803y98</div>
+                            </div>
+                            <div>
+                                <p>Balance credit</p>
+                                <div class="balance-amount">$0.00</div>
+                            </div>
+                            <div>
+                                <p>Outgoing transfer</p>
+                                <div class="balance-amount outgoing-transfer"></div>
+                            </div>
+
+                        </div>
+                        <div class="cash-transfer-buttons">
+                            <button class="hide-item-mb">Statement</button>
+                            <button id="tocashapp">Transfer money</button>
+                            <button class="hide-item-mb">Electronic check</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom-second-container">
+                <div class="transaction-history-container">
+                    <div class="transactions-header">
+                        <div class="showing">Showing</div>
+                        <div class="search ">
+                            <select>
+                                <option value="alldeposits">All transactions</option>
+                                <option value="Deposits">Deposits</option>
+                                <option value="Cashapp">Cash app deposits</option>
+                                <option value="Withdrawal">Withdrawals</option>
+                                <option value="Electronictransfers">Electronic transfer</option>
+                            </select>
+                            <button class="search">search</button>
+                        </div>
+                        <div class="pending-transactions">Pending transactions</div>
+                    </div>
+                    <table>
+                        <colgroup>
+                            <col style="width:10%;">
+                            <col style="width:30%;">
+                            <col style="width:15%;">
+                            <col style="width:10%;">
+                            <col style="width:10%;">
+
+                        </colgroup>
+                        <tr>
+                            <th>Date</th>
+                            <th>Category</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                            <th>Balance</th>
+                        </tr>
+                        <button class="load-more">Load more</button>
+
+                    </table>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="cash-app hide-item">
+            <div class="cash-app-cont">
+                <img src="./assets/smartphone-and-mobile-phone-free-png.webp">
+                <div class="receipt hide-item">
+
+                </div>
+                <div class="cash-transfer hide-item">
+                    <div class="cash-transfer-top">
+                        <div class="bx bx-x cancel-transfer"></div>
+                        <div class="transfering-amount">$7,000</div>
+                        <div class="button-placeholder">
+                        </div> <button class="confirm-transfer button-disabled">Pay</button>
+                    </div>
+                    <div class="cash-transfer-middle">
+                        <div class="middle-cont">
+                            <label>To</label>
+                            <input type="text" id="cashtag" placeholder="$cashtag, payroll email">
+                        </div>
+                        <div class="middle-cont">
+                            <label>For</label>
+                            <input type="text" class="description" placeholder="Add a note">
+                        </div>
+                        <div class="middle-cont">
+                            <label>From</label>
+                            <input type="text" placeholder=" Cash Balance" disabled>
+                        </div>
+
+                    </div>
+                    <div class="cash-transfer-bottom">
+
+
+
+                    </div>
+                    <div class="cash-pin-confirm-cont ">
+                        .
+                        <div class="cash-pin-confirm hide-item">
+                            <div class="cash-con-head">Confirm cash pin</div>
+
+                            <div class="pin-container">
+                                <input type="text" id="pin1" maxlength="1" />
+                                <input type="text" id="pin2" maxlength="1" />
+                                <input type="text" id="pin3" maxlength="1" />
+                                <input type="text" id="pin4" maxlength="1" />
+                            </div>
+
+                            <div class="cash-pin-confirm-transaction"><button>Confirm</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cashapp-home view-item-block">
+
+                    <div class="cash-top">
+                        <div class="bx bx-scan"></div>
+                        <div class="user-pp">
+                            <div class='bx bxs-plus-square' onclick="document.location='payroll.html';"></div>
+                        </div>
+                    </div>
+                    <div class="cash-screen"><span>$</span>
+                        <p class="cash-amount-screen"></p>
+                    </div>
+                    <div class="cash-buttons">
+                        <button class="input-buttons">1</button>
+                        <button class="input-buttons">2</button>
+                        <button class="input-buttons">3</button>
+                        <button class="input-buttons">4</button>
+                        <button class="input-buttons">5</button>
+                        <button class="input-buttons">6</button>
+                        <button class="input-buttons">7</button>
+                        <button class="input-buttons">8</button>
+                        <button class="input-buttons">9</button>
+                        <button class="input-buttons">.</button>
+                        <button class="input-buttons">0</button>
+                        <button class="bx bx-chevron-left" id="cancel"></button>
+                    </div>
+                    <div class="cash-pay">
+                        <button class="pay">Pay</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="mobile-nav-bottom mobile-flex">
+            <div>
+                <button class="bx bxs-save toaccounts active-link-reg"></button>
+                <p>Accounts</p>
+            </div>
+
+            <div>
+                <button class="bx bxs-dollar-circle tocashbank"></button>
+                <p>Pay & Transfer</p>
+            </div>
+            <div>
+                <button class="bx bxs-edit"></button>
+                <p>Plan & Tracks</p>
+            </div>
+            <div>
+                <button class="bx bx-star"></button>
+                <p>Benefits</p>
+            </div>
+            <div>
+                <button class="bx bx-line-chart"></button>
+                <p>Investments</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="account-restricted hide-item">
+        <div class="failed-image">
+            <i class="bx bx-x"></i>
+        </div>
+
+        <div class="failed-message">
+
+        </div>
+        <button class="close-account-restricted">Done</button>
+    </div>
+    <script src="./javascript/chase.js" type="module"></script>
+    <script src="./javascript/mobile.js" type="module"></script>
+</body>
+
+</html>

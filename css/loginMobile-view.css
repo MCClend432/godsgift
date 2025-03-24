@@ -1,0 +1,109 @@
+@media (min-width: 320px) {
+  .under-lay {
+    background-image: url(https://static.chasecdn.com/content/geo-images/images/background.mobile.day.1.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media (min-width: 992px) {
+  .under-lay {
+    background-image: url(https://static.chasecdn.com/content/geo-images/images/background.tablet.day.1.jpeg);
+  }
+}
+@media (min-width: 1024px) {
+  .under-lay {
+    background-image: url(https://static.chasecdn.com/content/geo-images/images/background.desktop.day.1.jpeg);
+  }
+}
+@media screen and (max-width: 992px) {
+  .login-container {
+    background-color: rgb(255, 255, 255);
+    width: 90.4% !important;
+  }
+  .footer-links {
+    margin-bottom: 10px;
+    padding-top: 5px;
+  }
+  footer {
+    padding: 0px !important;
+    margin-top: 20px;
+  }
+  .footer-links {
+    margin-bottom: 15px;
+    padding-top: 10px;
+  }
+  .footer-social {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .footer-links a {
+    color: gray;
+    margin: 0 5px;
+    font-size: 11px;
+  }
+  .footer-bottom {
+    font-size: 10px;
+    color: #555;
+    line-height: 2;
+  }
+  .footer-container {
+    width: 100%;
+    margin: 0;
+    line-height: 1.5em;
+    padding: 20px;
+  }
+  .login-main-container {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 190px;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-in-button {
+    border: none;
+    background-color: #005fec;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 0px;
+    border-radius: 3px;
+    margin-top: 6px;
+    cursor: pointer;
+  }
+  .login-inputs input {
+    width: 100%;
+    border: none;
+    padding: 7px 0px;
+    border-bottom: 1px solid rgb(29, 29, 29);
+  }
+  .login-inputs input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid #0073e6 !important; /* Change border color */
+  }
+  .inputError {
+    color: rgb(180, 81, 81);
+    #username,
+    #password {
+      border-bottom: 1.8px solid rgb(209, 30, 30) !important;
+    }
+  }
+  .last-foot p {
+    padding: 0;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    font-size: 13px;
+    color: #005fec;
+  }
+  .last-foot a {
+    color: #005fec;
+    padding: 0;
+    text-decoration: none;
+  }
+  .last-foot i {
+    font-size: 23px;
+    text-decoration: none;
+  }
+}

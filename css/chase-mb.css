@@ -1,0 +1,379 @@
+@media screen and (max-width: 700px) {
+  .cashapp-home,
+  .cash-transfer,
+  .receipt {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0px !important;
+    border-radius: 0 !important;
+    padding-bottom: 20px;
+    z-index: 100 !important;
+  }
+  .mobile-block {
+    display: block !important;
+  }
+  .mobile-flex {
+    display: flex !important;
+  }
+  .logo {
+    display: none !important;
+  }
+  .second-container {
+    display: block;
+    width: 100% !important;
+  }
+  .first-nav-section,
+  .middle-nav-section,
+  .last-nav-section {
+    display: none !important;
+  }
+  .cash-app-cont > img {
+    display: none;
+  }
+  .cash-app {
+    width: 100vw !important;
+    z-index: 1000 !important;
+  }
+  .cash-app-cont {
+    width: 100% !important;
+    margin: 0;
+    background-color: rebeccapurple;
+  }
+  .cash-bank-head div {
+    margin-bottom: 20px;
+  }
+  .cash-bank-head select {
+    display: none;
+  }
+  .cash-bank-head {
+    display: block !important;
+    width: 100% !important;
+  }
+  .cash-balances {
+    flex-wrap: wrap;
+  }
+  .cash-balances > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(204, 204, 204);
+  }
+  .cash-balances div p {
+    font-size: 17px !important;
+    width: 50%;
+  }
+  .cash-balances div div {
+    width: 50%;
+  }
+  #tocashapp {
+    margin-top: 20px;
+    width: 50%;
+  }
+  nav {
+    display: none !important;
+  }
+  .top-second-container {
+    display: none;
+    background-color: white;
+    overflow-x: hidden;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap !important;
+    padding: 10px 20px !important;
+  }
+  .first-container {
+    width: 100% !important;
+  }
+
+  .first-container {
+    display: block;
+    padding: 20px 0px !important;
+    overflow-y: auto;
+    height: 100% !important;
+    border: 1px solid #0396ff !important;
+    box-shadow: 4px -1px 4px 1px #13a3ec;
+    background-color: white !important;
+    border-radius: 10px;
+  }
+  .first-income {
+    cursor: pointer;
+    padding: 0 !important;
+    border-bottom: 2px solid #0396ff !important;
+    margin-bottom: 10px !important;
+  }
+  .hide-item-mb {
+    display: none;
+  }
+  .income-name {
+    font-size: 15px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .income-details {
+    display: flex;
+    justify-content: end;
+  }
+  .income-header {
+    display: none;
+  }
+  .total-balance {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px !important;
+    width: 100% !important;
+    margin: 0% auto;
+    margin-bottom: 10px !important;
+    font-size: 15px;
+    font-style: bold;
+    color: white;
+    background-color: #000b49 !important;
+  }
+  .home-navigation {
+    display: none !important;
+  }
+  .mobile-nav-top {
+    background-color: #3262ad !important;
+    margin: 0;
+    padding: 20px 20px !important;
+    display: flex;
+    border: none;
+    justify-content: space-between;
+  }
+  .mobile-nav-top button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: none;
+    color: #3262ad;
+    font-weight: 500;
+  }
+  .greetings {
+    background-color: #3262ad;
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 20px 0px 20px !important;
+    text-transform: capitalize;
+  }
+  .mobile-section {
+    width: 100%;
+    border: none;
+    display: flex;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 40px 20px;
+    justify-content: space-between;
+  }
+  .mobile-section button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  .mobile-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: #3262ad;
+  }
+  .mobile-sign-out {
+    color: rgb(197, 4, 4) !important;
+    padding: 0 !important;
+  }
+  .mobile-nav-bottom {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 0;
+    padding: 30px 10px !important;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  .mobile-nav-bottom div {
+    text-align: center;
+  }
+  .mobile-nav-bottom .bx {
+    font-size: 30px;
+    border: none;
+    color: #3262ad;
+  }
+  .mobile-nav-bottom .bx:hover {
+    color: black;
+  }
+  .mobile-nav-bottom p {
+    font-size: 10px;
+  }
+  .bottom-second-container {
+    /* border: 1px solid rgb(179, 179, 179); */
+    border: none !important;
+    background-color: var(--font-color);
+    padding: 10px 5px !important;
+    box-shadow: 2px 1px 4px 1px rgb(179, 179, 179);
+    max-height: 100% !important;
+    display: none !important;
+    width: 100% !important;
+    overflow-y: hidden;
+    position: relative;
+    transition: 0.6s;
+  }
+  .main-container {
+    padding-bottom: 200px !important;
+  }
+  .search {
+    display: none !important;
+  }
+  .showing {
+    width: 30% !important;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .load-more {
+    border-radius: 12px !important;
+  }
+  .active-link {
+    color: white !important;
+    background-color: rgb(35, 35, 35) !important;
+  }
+  .active-link-reg {
+    color: black !important;
+  }
+  .mobile-headers {
+    font-size: 17px;
+    color: #000b49;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .cash-buttons button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0;
+    font-size: 30px !important;
+    z-index: 2000;
+  }
+  .cash-screen {
+    font-size: 60px !important;
+  }
+  .cash-amount-screen,
+  .cash-screen span {
+    font-size: 55px !important;
+  }
+  .cash-pin-confirm {
+    width: 100% !important;
+    margin: 0% auto !important;
+    padding: 20px 20px !important;
+    color: black;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .pin-container {
+    display: flex;
+    padding: 30px 40px !important;
+    justify-content: space-between;
+  }
+
+  .pin-container input {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 20px;
+    text-align: center;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+  }
+  .receipt {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .success-image {
+    height: 12% !important;
+  }
+  .success-image img {
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 200;
+  }
+  .receiver {
+    position: relative;
+    font-size: 25px !important;
+    padding: 0px 10px;
+    height: 55% !important;
+    font-weight: 500;
+    position: relative;
+  }
+  .middle-cont label {
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  .middle-cont input {
+    padding-left: 10px;
+    font-size: 18px !important;
+    border: none;
+    font-weight: 300 !important;
+    color: rgb(63, 63, 63) !important;
+    width: 100%;
+  }
+  .cash-transfer-middle {
+    position: relative;
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+  }
+  .transfering-amount {
+    width: 80%;
+    font-size: 20px;
+  }
+  .confirm-transfer {
+    padding: 10px 20px !important;
+    background-color: #00d54b;
+    border-radius: 8px !important;
+  }
+  .receipient {
+    background-color: #000;
+    color: white;
+    padding: 10px !important;
+    border-radius: 5px;
+    margin: 10px 0px !important;
+    border-radius: 10px !important;
+  }
+  .receipient-name {
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  .receipient-email {
+    font-size: 15px !important;
+  }
+  .cash-pin-confirm-cont {
+    position: relative;
+    bottom: 10px !important;
+    width: 100%;
+    overflow: none;
+    color: white;
+  }
+  .account-restricted {
+    padding: 50px 30px !important;
+  }
+  .failed-message {
+    width: 85% !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+  .failed-message h2 {
+    font-size: 24px !important;
+    padding-bottom: 20px;
+  }
+  .failed-message p {
+    font-size: 18px !important;
+  }
+}
